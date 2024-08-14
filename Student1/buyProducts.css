@@ -1,0 +1,110 @@
+header {
+  background-color: #da291c;
+  display: block;
+}
+
+
+.productItem {
+    display: inline-block;
+    width: 24.1%;
+}
+.productItem > img {
+    width: 60%;
+}
+table, th {
+  border: 1px solid black;
+
+}
+th, td {
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color:#0178c7;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: orange;
+}
+
+li{
+  display: inline-block;
+}
+
+h2{
+  color: Orange;
+  background-color:  #0178c7;
+  border-bottom: 10px;
+  
+  font-size: 30px;
+}
+li h2{
+  padding-right: 150px;
+  padding-left: 20px;
+}
+li > img{
+   padding-top: 7px;
+   padding-left: 20px;
+   height: 65px;
+   width: 65px;
+
+}
+#Balls{
+  background-color:#0178c7;
+  color: orange;
+  padding: 10px;
+  font-size: 20px;
+}
+#Goals{
+  background-color:#0178c7;
+  color: orange;
+  padding: 10px;
+  font-size: 20px;
+}
+#Shirt{
+  background-color: #0178c7;
+  color: orange;
+  padding: 10px;
+  font-size: 20px;
+}
+#jackets{
+  background-color:#0178c7;
+  color: orange;
+  padding: 10px;
+  font-size: 20px;
+}
+#Boots{
+  background-color: #0178c7;
+  color: orange;
+  padding: 10px;
+  font-size: 20px;
+}
+#Shorts{
+  background-color:#0178c7;
+  color: orange;
+  padding: 10px;
+  font-size: 20px;
+}
+
+body{
+  background-color: #e8f0f7;
+}
+
+.navshop {
+  padding-top: 100px;
+}

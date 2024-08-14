@@ -1,0 +1,26 @@
+/* Import from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+
+footer{
+    background-color: var(--c-dark);
+    padding: 70px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer p, footer a, footer .socials {
+    color:black;
+}
+
+footer .socials a {
+    font-size: 24px;
+}
+
+footer .socials a:not(:last-child) 
+    {margin-right: 24px;}
+    
